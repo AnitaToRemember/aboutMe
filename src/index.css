@@ -1,9 +1,25 @@
+/*Layout*/
 :root {
+	--primary-color: #BB99DD;
+  --secondary-color: #646cff;
+  --background-color: #FAF7FD;
+  --text-color: #FAF7FD;
+	color:var(--primary-color);
+	background-color: var(--text-color);
 	font-family: 'Poppins', sans-serif;
-	line-height: 1.5;
+  text-align: center;
 	font-weight: 400;
-	color: #BB99DD;
-	background-color: #FAF7FD;
+	line-height: 1.5;
 	display: flex;
 	flex-direction: column;
+  margin: 0 auto;
+  padding: 2rem;
+	max-width: 1280px;
+  min-height: 100vh;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }

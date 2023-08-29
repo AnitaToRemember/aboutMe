@@ -1,27 +1,3 @@
-:root {
-  --primary-color: #BB99DD;
-  --secondary-color: #646cff;
-  --background-color: #FAF7FD;
-  --text-color: #FAF7FD;
-}
-
-body, html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
-/* Layout */
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
-
 /* Footer */
 footer {
   display: flex;
@@ -44,8 +20,4 @@ footer {
   width: 150px;
 }
 
-/* Profile */
-.profile {
-  margin-bottom: 20px;
-  border-radius: 2px;
-}
+
