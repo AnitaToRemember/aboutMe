@@ -16,6 +16,7 @@ footer {
 #profile-picture {
   border-radius: 50%;
   border: 1px solid var(--primary-color);
+  margin-top: 3rem;
   padding: 5px;
   width: 150px;
 }
