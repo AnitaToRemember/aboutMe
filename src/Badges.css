@@ -1,45 +1,44 @@
-  .social-media{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+/* Links */
+a {
+  font-weight: 500;
+  color: var(--primary-color);
+  text-decoration: none;
+}
 
-  #profile-picture{
-    border-radius: 50%;
-    border: 1px solid #BB99DD;
-    padding: 5px;
-    width: 150px;
-  }
+a:hover {
+  color: var(--secondary-color);
+}
 
-  .profile{
-    margin-bottom: 20px;
-    border-radius: 2px;
-  }
+/* Buttons */
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  width: 300px;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: var(--background-color);
+  border-color: var(--primary-color);
+  color: var(--primary-color);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
 
-  button {
-    border-radius: 8px;
-    border: 1px solid transparent;
-    width: 300px;
-    padding: 0.6em 1.2em;
-    font-size: 1em;
-    font-weight: 500;
-    font-family: inherit;
-    background-color: #FAF7FD;
-    border-color: #BB99DD;
-    color:#BB99DD;
-    cursor: pointer;
-    transition: border-color 0.25s;
-  }
+button:hover {
+  border-color: var(--secondary-color);
+}
 
-  button:hover {
-    border-color: #646cff;
-  }
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
 
-  button:focus,
-  button:focus-visible {
-    outline: 4px auto -webkit-focus-ring-color;
-  }
+/* Lists */
+ul {
+  padding: 0;
+}
 
-  ul{
-    padding: 0;
-  }
+li {
+  list-style: none;
+}
