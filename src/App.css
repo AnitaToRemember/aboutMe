@@ -11,3 +11,37 @@ body, html {
   padding: 0;
   height: 100%;
 }
+
+
+a {
+	font-weight: 500;
+	color:#BB99DD;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #8553f2;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	min-width: 320px;
+	min-height: 100vh;
+}
+
+div > ul > li {
+	list-style: none;
+}
+
+footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+  align-items: center;
+	background-color:#BB99DD;
+	color: #FAF7FD;
+	width: 100vw;
+	height: 1.5rem;
+  bottom: 0;
+}
