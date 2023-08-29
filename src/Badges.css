@@ -1,0 +1,45 @@
+  .social-media{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #profile-picture{
+    border-radius: 50%;
+    border: 1px solid #BB99DD;
+    padding: 5px;
+    width: 150px;
+  }
+
+  .profile{
+    margin-bottom: 20px;
+    border-radius: 2px;
+  }
+
+  button {
+    border-radius: 8px;
+    border: 1px solid transparent;
+    width: 300px;
+    padding: 0.6em 1.2em;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #FAF7FD;
+    border-color: #BB99DD;
+    color:#BB99DD;
+    cursor: pointer;
+    transition: border-color 0.25s;
+  }
+
+  button:hover {
+    border-color: #646cff;
+  }
+
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+
+  ul{
+    padding: 0;
+  }
